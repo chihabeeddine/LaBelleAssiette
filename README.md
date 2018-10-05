@@ -1,5 +1,12 @@
 # LaBelleAssiette
 API
-npm install
-node server.js to start api
-for test use npm test
+
+'''npm install'''
+
+To start api
+
+'''node server.js''' 
+
+To test use
+
+'''npm test'''
