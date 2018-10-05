@@ -1,0 +1,40 @@
+{
+  "name": "chefamit",
+  "version": "1.0.0",
+  "description": "api that handeles CRUD operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chihabeeddine/LaBelleAssiette.git"
+  },
+  "author": "Daoud Chihabeeddine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chihabeeddine/LaBelleAssiette/issues"
+  },
+  "homepage": "https://github.com/chihabeeddine/LaBelleAssiette#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16",
+    "mongoose": "^5.3.1"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  }
+}
